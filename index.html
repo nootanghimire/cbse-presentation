@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -46,151 +46,89 @@
 					<h1>CBSE</h1>
 					<h3>Component Based Software Engineering</h3>
 					<p>
-						<small>Team: <a href="http://ghimire.me">Nootan Ghimire</a> / <a href="http://twitter.com/NootanGhimire">@nootanghimire</a></small><br>
-						<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://rajudawadi.com.np">Raju Dawadi</a> / <a href="http://twitter.com/dawadiraji">@raju'sTwitter</a></small><br>
-						<small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://facebook.com/shram..">Shreeram Chaulagain</a> / <a href="http://twitter.com/shram..">@shram..</a></small>
+						<small><a href="http://ghimire.me">Nootan Ghimire</a> / <a href="http://twitter.com/NootanGhimire">@nootanghimire</a></small><br>
+						<small><a href="http://rajudawadi.com.np">Raju Dawadi</a> / <a href="http://twitter.com/dawadiraji">@raju'sTwitter</a></small><br>
+						<small><a href="http://facebook.com/shram..">Shreeram Chaulagain</a> / <a href="http://twitter.com/shram..">@shram..</a></small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+					<section>
+						<h2>Visualising Components</h2>
+						<p>
+							<img src="images/component.png" alt="What are components?" />
+						</p>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
+						<aside class="notes">
+							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						</aside>
+					</section>
+					<section>
+						<h2>Question!</h2>
+						<p>
+							Hav yuh luk inside komputer?
+						</p>
+
+						<aside class="notes">
+							Ask students if they have ever seen inside a computer's CPU. Ask them about different "components" that are present inside CPU, (ex. Power Supply, Processors, Bus, RAM) which are detachable. Next slide will present about examples to show why this approach is better. 
+						</aside>
+					</section>
+					<section>
+						<img src="images/computer_fire.jpg" alt="GIF of RAM Burning, CPU Burning." style="transform:scale(0.75); margin-top:-10px !important;">
+					</section>
+					<section>
+						<img src="images/angry.gif" alt="Aaaaarrrrgh!!">
+					</section>
+					<section>
+						
+						<img src="images/cpu.jpg" class="fragment roll-in" alt="OpenCPU">
+						<p class="fragment roll-in">Check for the damaged <em>component</em></p>
+					</section>
+					<section>
+						<h2>Components! F<small style="vertical-align:bottom">or</small>T<small style="vertical-align:bottom">he</small>W<small style="vertical-align:bottom">in</small></h2>
+						<img src="images/happy.jpg" alt="Be happy">
+					</section>	
 				</section>
-
 				<!-- Example of nested vertical slides -->
 				<section>
+						<h2>What IS CBSE?</h2>
+						Software Development based on the idea of: 
+						<ul>
+							<li>re-usability</li>
+							<li>using off-the-shelf components</li>
+							<li>rapid maintainance</li>
+						</ul>
+
+						<aside class="notes">
+						Intro:
+						Approach of software development based on the idea of re-usability but reuse is not just sufficient.
+						Select appropriate off-the-shelf components & assemble with a well-defined software architecture.
+						Rapid assembly and maintenance of system.
+						Different from traditional approach of implementation from scratch. 
+						</aside>
+				</section>
+				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<h2>Components?</h2>
+						<img src="images/thinking.png" alt="Confused!">
 					</section>
+
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
+						<h2>Components are:</h2>
+						<ol>
+							<li>Self-contained System</li>
+							<li>Independently Deployable and Composable</li>
+							<li>Loosely Coupled</li>
+						</ol>
+						<aside class="notes">
+							Component:
+							Self-contained partial function of system interacting with other components
+							Independently deploy-able & compose-able units
+							Loosely coupled module that denotes a single abstraction 
+						</aside>
+					
 					</section>
 				</section>
-
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
-				</section>
-
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  For those of you who like that sort of thing.
-						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=cube#/transitions">Cube</a> -
-						<a href="?transition=page#/transitions">Page</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a> -
-						<a href="?transition=linear#/transitions">Linear</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?#/transitions">Default</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="?#/themes">Default</a> -
-						<a href="?theme=sky#/themes">Sky</a> -
-						<a href="?theme=beige#/themes">Beige</a> -
-						<a href="?theme=simple#/themes">Simple</a> -
-						<a href="?theme=serif#/themes">Serif</a> -
-						<a href="?theme=night#/themes">Night</a> <br>
-						<a href="?theme=moon#/themes">Moon</a> -
-						<a href="?theme=solarized#/themes">Solarized</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
-				</section>
-
 				<section>
 					<h2>Global State</h2>
 					<p>
@@ -198,18 +136,6 @@
 						will be added as a class to the document element when the slide is open. This lets you
 						apply broader style changes, like switching the background.
 					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
 				</section>
 
 				<section>
@@ -356,7 +282,7 @@ function linkify( selector ) {
 				</section>
 
 			</div>
-
+			<footer style="position:absolute; top: 97%;" z-index="-62"><small style="font-size:0.3em;">*Slides contain images from 9gag. If you are allergic to it, please close your eyes.</small></footer>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
