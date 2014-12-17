@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Component Based Software Engineering | @dwdraju, @shramrahul, @nootanghimire</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -104,7 +104,7 @@
 
 						<aside class="notes">
 						Intro:
-						Approach of software development based on the idea of re-usability but reuse is not just sufficient.
+						Components are independnet and do not interfere each other . Need not to be compiled before using with other componens.
 						Select appropriate off-the-shelf components & assemble with a well-defined software architecture.
 						Different from traditional approach of implementation from scratch. 
 						</aside>
@@ -132,9 +132,8 @@
 						<aside class="notes">
 							Component:
 							Self-contained partial function of system interacting with other components
-							Independently deploy-able & compose-able units
+							Independently deploy-able & compose-able units : All external interaction must take place through publicly defined interface. 
 							Loosely coupled module that denotes a single abstraction 
-
 						</aside>
 					
 					</section>
@@ -168,9 +167,6 @@
 								<li>CORBA's CCM</li>
 							</ul>
 						</p>
-						<aside class="notes">
-							If everything is built on a fixed standard, then multiple components can work together.
-						</aside>
 					</section>
 					<section>
 						<img src="images/toomuch.jpg" alt="too much!" style="transform:scale(1);">
@@ -306,6 +302,7 @@
 							<li>Enforce a Component Model</li>
 							<li>Support Limited Range of Component Types and Interaction among them</li>
 						</ul>
+						<img src="images/com.png" alt="Componenet!">
 					</section>
 					<section data-transition="linear" data-background-transition="slide">
 						<img src="images/ejb.png" alt="EJB" />
@@ -342,9 +339,13 @@
 						<h2>Cons!</h2>
 						<ul>
 							<li>Costly Development and Maintenance</li>
-							<li>Diffuculty in QA</li>
+							<li>Difficulty in QA</li>
 						</ul>
+						<aside class="note">
+						QA: Quality Assurance
+					</aside>
 					</section>
+					
 				</section>
 				<section>
 					<h1>Thank You!</h1>
